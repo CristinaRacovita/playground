@@ -1,5 +1,8 @@
 <template>
+<div class="dark:bg-black">
   <HeaderNav />
+</div>
+
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 </template>
 
@@ -9,7 +12,7 @@ import HeaderNav from './components/HeaderNav.vue'
 export default {
   name: 'App',
   components: {
-    HeaderNav
+    HeaderNav,
   }
 }
 </script>

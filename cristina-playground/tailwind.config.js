@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
     theme: {
       colors: {
@@ -15,7 +16,11 @@ module.exports = {
         'sky-blue': '#7AC8FF',
         'mint-green': '#9EFFC9',
         'peachy-pink': '#FFB7B2',
-        'sky-100': '#e0f2fe'
+        'sky-100': '#e0f2fe',
+        'yellow': '#fef08a',
+        'light-grey': '#e5e7eb',
+        'dark-indigo': '#312e81',
+        'black': '#111827'
       },
       extend: {},
   },

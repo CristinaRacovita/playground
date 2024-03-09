@@ -1,14 +1,19 @@
 <template>
-<header class="bg-sky-blue rounded-b-lg shadow-md">
-  <nav class="mx-auto flex max-w-7xl items-center justify-evenly p-6 lg:px-8" aria-label="Global" >
-      <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">About Me</a>
-      <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">Education</a>
-      <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">My Projects</a>
-      <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">Contact</a>
-  </nav>
+  <header class="bg-sky-blue dark:bg-dark-indigo rounded-b-lg shadow-md">
+    <div class="flex justify-between items-center p-3">
+      <nav class="flex flex-grow justify-evenly" aria-label="Global">
+        <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">About Me</a>
+        <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">Education</a>
+        <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">My Projects</a>
+        <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">Contact</a>
+      </nav>
+      <div class="mr-2.5">
+        <ThemeToggle />
+      </div>
+    </div>
 
   <!-- Mobile version -->
-  <div class="lg:hidden" role="dialog" aria-modal="true">
+  <!-- <div class="lg:hidden" role="dialog" aria-modal="true">
     <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
       <div class="mt-6 flow-root">
         <div class="-my-6 divide-y divide-gray-500/10">
@@ -21,14 +26,19 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </header>
 
 </template>
 
 <script>
+import ThemeToggle from './ThemeToggle.vue'
+
 export default {
-  name: 'HeaderNav'
+  name: 'HeaderNav',
+  components: {   
+    ThemeToggle
+  }
 }
 </script>
 
