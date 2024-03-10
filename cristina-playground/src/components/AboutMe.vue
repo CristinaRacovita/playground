@@ -1,5 +1,5 @@
 <template>
-<div class="flex flex-col justify-center h-[100vh] bg-light-purple" id="about-me">
+<div class="flex flex-col justify-center h-[100vh] bg-light-purple dark:bg-black-grey" id="about-me">
     <div class="self-center">
         <div class="flex justify-center text-2xl font-bold text-dark-indigo dark:text-white flex items-center">About Me
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 ml-1">

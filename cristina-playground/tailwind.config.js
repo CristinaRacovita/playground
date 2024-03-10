@@ -26,7 +26,8 @@ module.exports = {
       transparent: 'transparent',
       'sky-blue-light': '#a7d1ef',
       'light-blue': '#f7f9ff',
-      'light-purple': '#fdfdff'
+      'light-purple': '#fdfdff',
+      'black-grey': '#2f3542'
     },
     extend: {
       keyframes: {
