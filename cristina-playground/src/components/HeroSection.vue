@@ -1,6 +1,6 @@
 <template>
-<div class="flex justify-center mt-20">
-    <div>
+<div class="flex justify-center h-[80vh]">
+    <div class="self-center">
         <img class="w-96 rounded-full" src="@/assets/avatar-1-1.png" />
     </div>
     <div class="dark:text-white flex flex-col self-center">

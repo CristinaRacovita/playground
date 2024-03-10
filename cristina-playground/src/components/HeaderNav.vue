@@ -1,11 +1,14 @@
 <template>
   <header class="bg-white dark:bg-dark-indigo rounded-b-lg shadow-md">
     <div class="flex justify-between items-center p-3">
-      <nav class="flex flex-grow justify-evenly px-64" aria-label="Global">
-        <!-- <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">About Me</a>
-        <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">Education</a>
-        <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">My Projects</a>
-        <a href="#" class="text-sm font-medium leading-6 text-ivory-white text-increase-on-hover hover:text-sky-100">Contact</a> -->
+    <!-- <div>
+      <img class="w-56" src="@/assets/two-clouds.png" />
+    </div> -->
+    
+      <nav class="flex flex-grow justify-evenly px-52" aria-label="Global">
+        <a href="#" class="text-ml font-normal hover:font-bold leading-6 text-sky-blue dark:text-white text-increase-on-hover">About Me</a>
+        <a href="#" class="text-ml font-normal hover:font-bold leading-6 text-sky-blue dark:text-white text-increase-on-hover">My Projects</a>
+        <a href="#" class="text-ml font-normal hover:font-bold leading-6 text-sky-blue dark:text-white text-increase-on-hover">Let's Connect</a>
       </nav>
       <div class="mr-2.5">
         <ThemeToggle />
@@ -29,9 +32,9 @@ export default {
 <style scoped>
 .text-increase-on-hover {
     transition: transform 0.3s ease;
-  }
+}
 
-  .text-increase-on-hover:hover {
-    transform: scale(1.1); /* Adjust the scale factor as needed */
-  }
+.text-increase-on-hover:hover {
+    transform: scale(1.1); 
+}
 </style>

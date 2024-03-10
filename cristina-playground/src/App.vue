@@ -1,5 +1,5 @@
 <template>
-<div class="dark:bg-black" style="height:100vh">
+<div class="dark:bg-black h-screen">
   <HeaderNav />
   <HeroSection />
 </div>
@@ -13,7 +13,7 @@ export default {
   name: 'App',
   components: {
     HeaderNav,
-    HeroSection
+    HeroSection,
   }
 }
 </script>
