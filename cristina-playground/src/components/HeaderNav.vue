@@ -2,9 +2,9 @@
   <header class="bg-white dark:bg-dark-indigo rounded-b-lg shadow-md">
     <div class="flex justify-between items-center p-3">
       <nav class="flex flex-grow justify-evenly px-52" aria-label="Global">
-        <a href="#" class="text-ml font-normal hover:font-bold leading-6 text-sky-blue dark:text-white text-increase-on-hover">About Me</a>
-        <a href="#" class="text-ml font-normal hover:font-bold leading-6 text-sky-blue dark:text-white text-increase-on-hover">My Projects</a>
-        <a href="#" class="text-ml font-normal hover:font-bold leading-6 text-sky-blue dark:text-white text-increase-on-hover">Let's Connect</a>
+        <a href="#" class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover">About Me</a>
+        <a href="#" class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover">My Projects</a>
+        <a href="#" class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover">Let's Connect</a>
       </nav>
       <div class="mr-2.5">
         <ThemeToggle />
