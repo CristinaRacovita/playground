@@ -21,7 +21,10 @@ module.exports = {
       'light-grey': '#e5e7eb',
       'dark-indigo': '#312e81',
       'black': '#111827',
-      'light-indigo': '#a5b4fc'
+      'light-indigo': '#a5b4fc',
+      'grey': '#9ca3af',
+      transparent: 'transparent',
+      'sky-blue-light': '#a7d1ef'
     },
     extend: {
       keyframes: {
