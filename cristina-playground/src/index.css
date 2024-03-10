@@ -1,7 +1,12 @@
-/* src/assets/main.css */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Your custom styles go here */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
