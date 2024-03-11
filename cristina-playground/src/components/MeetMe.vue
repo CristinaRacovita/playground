@@ -26,7 +26,7 @@
         </div>
 
         <div class="font-normal items-center text-dark-indigo dark:text-white mt-1 w-[700px]">
-            I'm a <span class="font-semibold">3-year Full-Stack Developer</span> at Yonder, where I work mainly with Angular and .NET, but I'm also passionate about Data Science.
+            I'm a <span class="font-semibold">3-year Full-Stack Developer</span> at <a class="font-extrabold cursor-pointer" target="_blank" href="https://tss-yonder.com/">Yonder</a>, where I work mainly with Angular and .NET, but I'm also passionate about Data Science.
         </div>
 
         <div class="flex text-1xl font-bold items-center text-dark-indigo dark:text-white mt-6 w-[700px]">

@@ -11,22 +11,23 @@
     <div class="flex flex-col items-center justify-center">
        <div class="font-1xl font-medium w-[800px] mt-10 mb-5 text-dark-indigo dark:text-white"> Welcome to my projects parade, where technical skills meet creativity. Dive into a collection of my latest endeavors, where each project tells a unique story of problem-solving. </div>
         <div
-            class="w-[900px] justify-center grid mt-2 divide-x divide-y  divide-sky-blue dark:divide-coral overflow-hidden rounded-3xl border-2 text-gray-600 border-sky-blue dark:border-coral sm:grid-cols-2 lg:grid-cols-5  lg:divide-y-0 xl:grid-cols-5">
+            class="w-[900px] justify-center grid mt-2 divide-x divide-y  divide-sky-blue dark:divide-coral overflow-hidden rounded-3xl border-2 text-gray-600 border-sky-blue dark:border-coral sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
             <div class="group bg-sky-blue-light dark:bg-coral-light transition hover:z-[1] hover:shadow-2xl  hover:shadow-gray-600/10 cursor-pointer">
                 <div class="space-y-8 py-12 p-8">
                 <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent">
                 <div class="space-y-2">
-                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">Xyz.com</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Platform to convert Domains into Content websites.</p>
+                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">Odin AI</h5>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium text-xs">Web app which integrates an <span class="font-bold">AutoML</span> system to provide easy access for
+people without any technical background.</p>
                 </div>
                 </div>
             </div>
-            <div class="group bg-sky-blue-light dark:bg-coral-light transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 cursor-pointer">
+            <div class="group bg-sky-blue-light dark:bg-coral-light transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 cursor-pointer" href="https://misbelief-challenge-gltixqlby2qnpyfugtsumv.streamlit.app">
                 <div class="space-y-8 py-12 p-8">
                 <img src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent" >
                 <div class="space-y-2">
-                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">ABC.com</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Platform to create dynamic widgets for websites.</p>
+                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">Misbelifs Analysis</h5>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium text-xs">Study on most popular misbeliefs around the world based on the <span class="font-bold">TruthfulQA</span> dataset.</p>
                 </div>
                 </div>
             </div>
@@ -34,8 +35,8 @@
                 <div class="space-y-8 py-12 p-8">
                 <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent" >
                 <div class="space-y-2">
-                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">ASD.com</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark font-medium">API SaaS Platform that provides API Suit to help you ship fast.</p>
+                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">Boosting TinyBERT</h5>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium text-xs"><span class="font-bold">Tiny Transformers</span>: Strategies for improving question answering with <span class="font-bold">NER</span> and <span class="font-bold">POS</span>.</p>
                 </div>
                 </div>
             </div>
@@ -43,17 +44,8 @@
                 <div class="space-y-8 py-12 p-8">
                 <img src="https://www.svgrepo.com/show/120850/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent">
                 <div class="space-y-2">
-                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">TMK.co</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Chrome Extension that lets you add ChatGPT on any website</p>
-                </div>
-                </div>
-            </div>
-            <div class="group bg-sky-blue-light dark:bg-coral-light transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 cursor-pointer">
-                <div class="space-y-8 py-12 p-8">
-                <img src="https://www.svgrepo.com/show/120854/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent">
-                <div class="space-y-2">
-                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">LMN.co</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Awesome Project for making pizza without any tool</p>
+                    <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">E-voting System</h5>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium text-xs">Angular application that integrates <span class="font-bold">Smart Contracts</span> and <span class="font-bold">NEAR Blockchain</span> to implement a secure voting method.</p>
                 </div>
                 </div>
             </div>
