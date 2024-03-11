@@ -7,7 +7,7 @@
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-dark-indigo dark:text-white sm:mt-0">
         <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('home')">Home</a>
-        <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('about-me')">Meet Me</a>
+        <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('MeetMe')">Meet Me</a>
 
         <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('skills')">Aptitude Alley</a>
 

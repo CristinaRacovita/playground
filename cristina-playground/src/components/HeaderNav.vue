@@ -2,7 +2,7 @@
   <header class="bg-white dark:bg-dark-indigo rounded-b-lg shadow-md" id="home">
     <div class="flex justify-between items-center p-2">
       <nav class="flex flex-grow justify-evenly px-52" aria-label="Global">
-        <a class="text-ml font-bold hover:font-extrabold leading-6 text-dark-indigo dark:text-white text-increase-on-hover cursor-pointer" @click="scrollToSection('about-me')">Meet Me</a>
+        <a class="text-ml font-bold hover:font-extrabold leading-6 text-dark-indigo dark:text-white text-increase-on-hover cursor-pointer" @click="scrollToSection('MeetMe')">Meet Me</a>
         <a class="text-ml font-bold hover:font-extrabold leading-6 text-dark-indigo dark:text-white text-increase-on-hover cursor-pointer" @click="scrollToSection('skills')">Aptitude Alley</a>
         <a class="text-ml font-bold hover:font-extrabold leading-6 text-dark-indigo dark:text-white text-increase-on-hover cursor-pointer" @click="scrollToSection('projects')">Portfolio Parade</a>
         <a class="text-ml font-bold hover:font-extrabold leading-6 text-dark-indigo dark:text-white text-increase-on-hover cursor-pointer" @click="scrollToSection('ask-me')">Ask Cristina</a>
