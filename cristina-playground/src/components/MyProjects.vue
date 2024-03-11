@@ -11,13 +11,13 @@
     <div class="flex flex-col items-center justify-center">
        <div class="font-1xl font-medium w-[800px] mt-10 mb-5 text-dark-indigo dark:text-white"> Welcome to my projects parade, where technical skills meet creativity. Dive into a collection of my latest endeavors, where each project tells a unique story of problem-solving. </div>
         <div
-            class="w-[900px] justify-center grid mt-2 divide-x divide-y  divide-dark-indigo dark:divide-coral overflow-hidden rounded-3xl border-2 text-gray-600 border-dark-indigo dark:border-coral sm:grid-cols-2 lg:grid-cols-5  lg:divide-y-0 xl:grid-cols-5">
+            class="w-[900px] justify-center grid mt-2 divide-x divide-y  divide-sky-blue dark:divide-coral overflow-hidden rounded-3xl border-2 text-gray-600 border-sky-blue dark:border-coral sm:grid-cols-2 lg:grid-cols-5  lg:divide-y-0 xl:grid-cols-5">
             <div class="group bg-sky-blue-light dark:bg-coral-light transition hover:z-[1] hover:shadow-2xl  hover:shadow-gray-600/10 cursor-pointer">
                 <div class="space-y-8 py-12 p-8">
                 <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent">
                 <div class="space-y-2">
                     <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">Xyz.com</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark">Platform to convert Domains into Content websites.</p>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Platform to convert Domains into Content websites.</p>
                 </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 <img src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent" >
                 <div class="space-y-2">
                     <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">ABC.com</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark">Platform to create dynamic widgets for websites.</p>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Platform to create dynamic widgets for websites.</p>
                 </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                 <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent" >
                 <div class="space-y-2">
                     <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">ASD.com</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark">API SaaS Platform that provides API Suit to help you ship fast.</p>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium">API SaaS Platform that provides API Suit to help you ship fast.</p>
                 </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 <img src="https://www.svgrepo.com/show/120850/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent">
                 <div class="space-y-2">
                     <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">TMK.co</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark">Chrome Extension that lets you add ChatGPT on any website</p>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Chrome Extension that lets you add ChatGPT on any website</p>
                 </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 <img src="https://www.svgrepo.com/show/120854/logo.svg" loading="lazy" width="200" height="200" class="w-12 h-12 rounded-full" style="color:transparent">
                 <div class="space-y-2">
                     <h5 class="text-xl font-bold text-white transition group-hover:text-secondary dark:text-coral-dark">LMN.co</h5>
-                    <p class="text-dark-indigo dark:text-coral-dark">Awesome Project for making pizza without any tool</p>
+                    <p class="text-dark-indigo dark:text-coral-dark font-medium">Awesome Project for making pizza without any tool</p>
                 </div>
                 </div>
             </div>

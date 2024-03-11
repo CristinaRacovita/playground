@@ -36,23 +36,23 @@
         <div class="font-bold items-center text-dark-indigo dark:text-white mt-1 mb-5">
             <span class="text-1xl">Soft Capapilities</span>
             <div class="font-normal w-[500px] mt-5">
-                 <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
+                 <span class="px-3 dark:py-1 pb-1.5 pt-1.5 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
                     <span class="text-sm">Easily Adaptable</span>
                 </span>
 
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
+                <span class="px-3 dark:py-1 pb-1.5 pt-1.5 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
                     <span class="text-sm">Creative</span>
                 </span>
 
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
+                <span class="px-3 dark:py-1 pb-1.5 pt-1.5 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
                     <span class="text-sm">Solution-Oriented</span>
                 </span>
             </div>
             <div class="font-normal w-[500px] mt-5">
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
+                <span class="px-3 dark:py-1 pb-1.5 pt-1.5 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
                     <span class="text-sm">Critical Thinker</span>
                 </span>
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
+                <span class="px-3 dark:py-1 pb-1.5 pt-1.5 m-2 rounded-md shadow-sm ring ring-transparent text-white font-medium px-5 bg-sky-blue dark:border-solid dark:border-white dark:border-2 dark:bg-transparent dark:text-white">
                     <span class="text-sm">Team-Player</span>
                 </span>
             </div>
@@ -60,30 +60,30 @@
         <div class="font-bold items-center text-dark-indigo dark:text-white mt-3 pb-10">
             <span class="text-1xl">Technical Skills</span>
              <div class="font-normal w-[500px] mt-5">
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
+                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 dark:dark:pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
                     <span class="text-sm">.NET</span>
                 </span>
 
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
+                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 dark:pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
                     <span class="text-sm">Angular</span>
                 </span>
 
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
+                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 dark:pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
                     <span class="text-sm">SQL</span>
                 </span>
 
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
+                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 dark:pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
                     <span class="text-sm">Neo4j</span>
                 </span>
 
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
+                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 dark:pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
                     <span class="text-sm">Python</span>
                 </span>
             </div>
             <div class="font-normal w-[500px] mt-5">
                
 
-                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
+                <span class="px-3 py-1 m-2 rounded-md shadow-sm ring ring-transparent text-sky-blue font-medium px-5 dark:pt-1.5 pb-1.5 bg-white border-solid border-sky-blue border-2 dark:bg-white dark:text-coral dark:border-none">
                     <span class="text-sm">NLP</span>
                 </span>
             </div>
