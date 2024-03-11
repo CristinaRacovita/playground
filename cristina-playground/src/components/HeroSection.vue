@@ -6,7 +6,7 @@
     <div class="dark:text-white flex flex-col self-center">
         <div class="font-bold relative w-[max-content] text-2xl before:absolute before:inset-0 before:animate-typewriter dark:text-white text-dark-indigo before:bg-white dark:before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-dark-indigo"> Welcome to my digital playground! </div>
         <DotsDivider :dots="12" class="justify-between" />
-        <div class="mt-6 dark:text-white text-dark-indigo w-96 text-1xl"> Hi, I'm <span class="font-extrabold">Cristina</span> - lovely to meet you! Meet my cozy internet corner where every scroll reveals something about myself.  </div>
+        <div class="mt-6 dark:text-white text-dark-indigo w-96 text-1xl"> Hi, I'm <span class="font-extrabold">Cristina</span> - lovely to meet you! Meet my cozy internet corner where every scroll reveals something about myself. </div>
         <div class="mt-3 font-light dark:text-white text-dark-indigo"> Feel free to stay a while and explore! </div>
         <button @click="scrollToAboutMePage()" id="explore" class="bg-sky-blue dark:bg-transparent dark:hover:bg-coral hover:opacity-80 dark:text-white dark:border dark:border-white hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center w-fit mt-3"> Explore
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 ml-1">
@@ -22,16 +22,19 @@
 import DotsDivider from './DotsDivider.vue'
 
 export default {
-  name: 'HeroSection',
-  components: {   
-    DotsDivider
-  },
-  methods: {
-    scrollToAboutMePage() {
-        const position = document.getElementById("MeetMe").offsetTop;
-        window.scrollTo({ top: position, behavior: "smooth" });  
+    name: 'HeroSection',
+    components: {
+        DotsDivider
+    },
+    methods: {
+        scrollToAboutMePage() {
+            const position = document.getElementById("MeetMe").offsetTop;
+            window.scrollTo({
+                top: position,
+                behavior: "smooth"
+            });
+        }
     }
-  }
 }
 </script>
 

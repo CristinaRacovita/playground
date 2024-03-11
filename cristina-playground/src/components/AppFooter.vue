@@ -1,6 +1,4 @@
 <template>
-
-
 <footer class="bg-light-blue dark:bg-dark-indigo rounded shadow-inner">
     <div class="w-full mx-auto max-w-screen-xl p-2 md:flex md:items-center md:justify-between font-light">
         <div class="flex flex-col">
@@ -11,6 +9,7 @@
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-dark-indigo dark:text-white sm:mt-0">
             <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('home')">Home</a>
             <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('MeetMe')">Meet Me</a>
+            <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('hobbies')">Hobby Pit</a>
 
             <a class="me-4 md:me-6 cursor-pointer text-increase-on-hover hover:font-bold" @click="scrollToSection('skills')">Aptitude Alley</a>
 
@@ -20,8 +19,6 @@
         </ul>
     </div>
 </footer>
-
-
 </template>
 
 <script>
@@ -30,7 +27,10 @@ export default {
     methods: {
         scrollToSection(id) {
             const position = document.getElementById(id).offsetTop;
-            window.scrollTo({ top: position, behavior: "smooth" });  
+            window.scrollTo({
+                top: position,
+                behavior: "smooth"
+            });
         }
     }
 }
@@ -42,6 +42,6 @@ export default {
 }
 
 .text-increase-on-hover:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 </style>

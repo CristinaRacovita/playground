@@ -1,13 +1,13 @@
 <template>
 <div class="flex gap-2 pt-3 items-center">
     <!-- eslint-disable-next-line -->
-    <div  v-for="n in dots" class="w-3 h-3 rounded-full dark:bg-coral bg-sky-blue animate-bounce" :class=getDelay(n)></div>
+    <div v-for="n in dots" class="w-3 h-3 rounded-full dark:bg-coral bg-sky-blue animate-bounce" :class=getDelay(n)></div>
 </div>
 </template>
 
 <script>
 export default {
-    name:'DotsDivider',
+    name: 'DotsDivider',
     props: {
         dots: Number
     },
@@ -33,11 +33,10 @@ export default {
                 18: 'animate-delay-[2100ms]',
                 19: 'animate-delay-[2200ms]',
                 20: 'animate-delay-[2300ms]'
-            }[delay]
+            } [delay]
         }
-  }
+    }
 }
-
 </script>
 
 <style scoped>
