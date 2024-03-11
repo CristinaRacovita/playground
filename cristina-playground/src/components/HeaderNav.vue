@@ -1,10 +1,11 @@
 <template>
   <header class="bg-white dark:bg-dark-indigo rounded-b-lg shadow-md">
-    <div class="flex justify-between items-center p-3">
+    <div class="flex justify-between items-center p-2">
       <nav class="flex flex-grow justify-evenly px-52" aria-label="Global">
-        <a href="#" class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover">About Me</a>
-        <a href="#" class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover">My Projects</a>
-        <a href="#" class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover">Let's Connect</a>
+        <a class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover cursor-pointer" @click="scrollToSection('about-me')">Meet Me</a>
+        <a class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover cursor-pointer" @click="scrollToSection('skills')">Aptitude Alley</a>
+        <a class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover cursor-pointer">Portfolio Parade</a>
+        <a class="text-ml font-bold hover:font-extrabold leading-6 text-sky-blue dark:text-white text-increase-on-hover cursor-pointer">Ask Cristina</a>
       </nav>
       <div class="mr-2.5">
         <ThemeToggle />
@@ -21,6 +22,12 @@ export default {
   name: 'HeaderNav',
   components: {   
     ThemeToggle
+  },
+  methods: {
+    scrollToSection(id) {
+        const position = document.getElementById(id).offsetTop;
+        window.scrollTo({ top: position, behavior: "smooth" });  
+    }
   }
 }
 </script>

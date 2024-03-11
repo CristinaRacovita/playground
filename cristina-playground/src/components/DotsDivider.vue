@@ -14,7 +14,7 @@ export default {
     methods: {
         getDelay(delay) {
             return {
-                2: 'animate-delay-[500ms]',
+                2: `animate-delay-[500ms]`,
                 3: 'animate-delay-[600ms]',
                 4: 'animate-delay-[700ms]',
                 5: 'animate-delay-[800ms]',
@@ -25,6 +25,14 @@ export default {
                 10: 'animate-delay-[1300ms]',
                 11: 'animate-delay-[1400ms]',
                 12: 'animate-delay-[1500ms]',
+                13: 'animate-delay-[1600ms]',
+                14: 'animate-delay-[1700ms]',
+                15: 'animate-delay-[1800ms]',
+                16: 'animate-delay-[1900ms]',
+                17: 'animate-delay-[2000ms]',
+                18: 'animate-delay-[2100ms]',
+                19: 'animate-delay-[2200ms]',
+                20: 'animate-delay-[2300ms]'
             }[delay]
         }
   }
